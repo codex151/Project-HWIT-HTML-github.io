@@ -1,0 +1,143 @@
+/* Home page CSS */
+.main{
+  background-color:rgb(229, 255, 247);
+  padding: 10px;
+  font-family: arial;
+}
+
+/* First section */
+.first-sectiion{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.shofy-logo-image{
+  height: 80px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+ 
+}
+.shofy-logo{
+  justify-items: center;
+}
+.shofy-text{
+  margin-top: 0;
+  font-size: small;
+ 
+
+}
+.marq{
+  margin-top: 0;
+  background-color:rgb(133, 216, 189);
+}
+.tabs{
+  justify-items: center;
+  
+}
+.tabs-link{
+  color: black;
+  text-decoration: none;
+}
+
+/* Middle section */
+
+.middle-section{
+  display: flex;
+  flex-direction: column;
+}
+.search{
+  text-align: center;
+  padding: 5px;
+}
+.cartegory{
+  margin-bottom: 10px;
+}
+
+/* items section */
+
+.items-section{
+
+}
+
+.items{
+ display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-radius: 30px;
+  border-color:rgb(133, 216, 189);
+  margin-bottom: 5px;
+}
+
+.item{
+ width: 200px;
+ background-color: white;
+ margin: 10px;
+ border-style: solid;
+  border-radius: 10px;
+  border-color:rgb(133, 216, 189) ;
+  padding: 15px;
+  cursor: pointer;
+}
+.item-image{
+ width: 190px;
+ height: 250px;
+ object-fit: cover;
+}
+
+/* footer */
+
+footer{
+  background-color:rgb(133, 216, 189);
+}
+
+.social-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social{
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.social-logo{
+  height: 40px;
+  border-radius: 30px;
+  width: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+  
+/* form */
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.info{
+  margin-bottom: 10px;
+}
+.info-select{
+  cursor: pointer;
+}
+
+.info-description{
+  width: 200px;
+  height: 50px;
+}
+.button{
+  background-color: rgb(229, 255, 247);
+  border-style: solid;
+  border-radius: 3px;
+  border-color:rgb(133, 216, 189);
+  padding: 3px;
+  width: 80px;
+  cursor: pointer;
+}
